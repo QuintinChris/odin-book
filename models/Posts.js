@@ -11,11 +11,17 @@ var PostSchema = new Schema({
         type: Schema.Types.ObjectId,
         required: true
     },
-    comments: {
+    comments: [{
         type: String,
-    },
+        date: Date
+    }],
     likes: {
-        type: //????????
+        type: Number,
+        required: true
+    },
+    date: {
+        type: Date,
+        default: Date.now
     }
 });
 

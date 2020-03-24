@@ -7,7 +7,8 @@
 
 - [ ] Create models/schemas
   - [ ] Users
-    - [ ] name
+    - [X] name
+    - [X] birthdate
     - [ ] profile photo
     - [ ] cover photo
     - [ ] occupation
@@ -16,15 +17,12 @@
     - [ ] hometown
     - [ ] bio
     - [ ] relationship status
-  - [ ] Friends
-    - [ ] mutual
-    - [ ] all
-  - [ ] Friend request (???)
-  - [ ] Posts
-    - [ ] content
-    - [ ] author
-    - [ ] comments
-    - [ ] likes
+  - [X] Posts
+    - [X] content
+    - [X] author
+    - [X] comments
+    - [X] likes
+    - [X] date
 
 
 - [ ] Create views

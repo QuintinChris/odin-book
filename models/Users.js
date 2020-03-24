@@ -8,16 +8,33 @@ var UserSchema = new Schema({
         required: true,
         max: 100,
     },
-    friends: {},
-    brand: {},
-    photo: {},
-    cover: {},
-    bio: {},
-    occupation: {},
+    birthday: {
+        type: Date,
+        default: Date.now
+    },
+    friends: [{
+        type: Schema.Types.ObjectId,
+    }],
+    photo: {
+        data: Buffer,
+        contentType: String
+    },
+    cover: {
+        data: Buffer,
+        contentType: String
+    },
+    bio: {
+        type: String,
+    },
+    occupation: {
+        type: 
+    },
     education: {},
     location: {},
     hometown: {},
-    status: {}
+    status: {
+        type: 
+    }
 });
 
 UserSchema.virtual('url').get(function () {
