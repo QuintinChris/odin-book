@@ -3,6 +3,19 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 var UserSchema = new Schema({
+    email: {
+        type: String,
+        unique: true
+    },
+    password: {
+        type: String
+    },
+    facebook: {
+        id: String,
+        token: String,
+        email: String,
+        name: String
+    },
     name: {
         type: String,
         required: true,
@@ -12,8 +25,16 @@ var UserSchema = new Schema({
         type: Date,
         default: Date.now
     },
+    sex: {
+        type: String
+    },
+    // create function for this
+    age: {
+        type: Number
+    },
+    // friends: [{FriendSchema}] ?
     friends: [{
-        type: Schema.Types.ObjectId,
+        type: Schema.Types.ObjectId
     }],
     photo: {
         data: Buffer,
@@ -24,16 +45,22 @@ var UserSchema = new Schema({
         contentType: String
     },
     bio: {
-        type: String,
+        type: String
     },
     occupation: {
-        type: 
+        type: String
     },
-    education: {},
-    location: {},
-    hometown: {},
-    status: {
-        type: 
+    education: {
+        type: String
+    },
+    location: {
+        type: String
+    },
+    hometown: {
+        type: String
+    },
+    isSingle: {
+        type: Boolean
     }
 });
 

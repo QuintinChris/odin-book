@@ -22,7 +22,9 @@ var PostSchema = new Schema({
     date: {
         type: Date,
         default: Date.now
-    }
+    },
+}, {
+    timestamps: true
 });
 
 PostSchema.virtual('url').get(function () {

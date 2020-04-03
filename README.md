@@ -9,23 +9,34 @@
   - [ ] Users
     - [X] name
     - [X] birthdate
-    - [ ] profile photo
-    - [ ] cover photo
-    - [ ] occupation
-    - [ ] education
-    - [ ] location
-    - [ ] hometown
-    - [ ] bio
-    - [ ] relationship status
+    - [X] profile photo
+    - [X] cover photo
+    - [X] occupation
+    - [X] education
+    - [X] location
+    - [X] hometown
+    - [X] bio
+    - [X] relationship status
   - [X] Posts
     - [X] content
     - [X] author
     - [X] comments
     - [X] likes
     - [X] date
+  - [X] Friends
+    - [X] user1
+    - [X] user2
 
 
 - [ ] Create views
+  - [ ] User
+    - [ ] form
+    - [ ] detail
+      - [ ] others
+      - [ ] self
+    - [ ] friends
+    - [ ] photos
+  
   - [ ] view user
     - [ ] profile photo
     - [ ] cover photo
