@@ -1,30 +1,15 @@
-* Odin Book from The Odin Project! *
+# Odin Book from The Odin Project!
 
 - [X] Create skeleton
   - [X] express "odin-book" --view=pug --css=sass
   - [X] npm install mongoose helmet morgan async passport passport-facebook async nodemon moment express-validator multer dotenv bcryptjs
 
 
-- [ ] Create models/schemas
-  - [ ] Users
-    - [ ] name
-    - [ ] profile photo
-    - [ ] cover photo
-    - [ ] occupation
-    - [ ] education
-    - [ ] location
-    - [ ] hometown
-    - [ ] bio
-    - [ ] relationship status
-  - [ ] Friends
-    - [ ] mutual
-    - [ ] all
-  - [ ] Friend request (???)
-  - [ ] Posts
-    - [ ] content
-    - [ ] author
-    - [ ] comments
-    - [ ] likes
+
+
+
+- [X] Create models/schemas
+
 
 
 - [ ] Create views
@@ -67,7 +52,7 @@
 - [ ] Deploy to Heroku!
 
 
-*Requirements Checklist:*
+# Requirements Checklist:
 - [ ] Users must sign in to be able to see anything other than the sign in/up page
 - [ ] Users should be able to sign in using real facebook details
 - [ ] Users can send friend requests to other users
@@ -80,7 +65,7 @@
   - [ ] lists all users and buttons for sending friend requests to those who are not already friends or who dont already have a pending request
 
 
-*Stretch Goals:*
+# Stretch Goals:
 - [ ] Make posts allow user images (either by url or by upload)
 - [ ] allow users to upload and update their own profile photo
 - [ ] style it!
