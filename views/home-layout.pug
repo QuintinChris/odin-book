@@ -1,0 +1,25 @@
+extends layout
+
+block content
+ nav(class='navbar navbar-expand-lg navbar-dark bg-primary')
+  a(class='navbar-brand' href='#') Odin Book
+  form(class='form-inline')
+   input(class='form-control mr-sm-2' type='search' aria-label='Search')
+   button(class='btn btn-outline-success' type='submit') Search
+  button(class='navbar-toggler' type='button' data-toggle='collapse' data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+   span(class='navbar-toggler-icon')
+      
+  div(class='collapse navbar-collapse' id='navbarSupportedContent')
+   ul(class='navbar-nav mr-auto')
+    li(class='nav-item')
+     a(class='nav-link' href='#') Profile
+    li(class='nav-item')
+     a(class='nav-link' href='#') Home
+    li(class='nav-item')
+     a(class='nav-link' href='#') Create
+
+ div(class='container-fluid')
+  div(class='container')
+   div(class='col-md-3')
+   div(class='col-md-6')
+   div(class='col-md-3')
