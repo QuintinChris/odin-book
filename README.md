@@ -50,11 +50,21 @@
     - [ ] make like real "timeline" - show all recent posts from current user + user's friends
 
 
-- [ ] Create form views
-  - [ ] sign up
-  - [ ] log in (with facebook & passport)
+- [X] Create form views
+  - [X] sign up
+  - [X] log in (with facebook & passport)
+  - [X] edit profile
+  - [X] create post?
+- [ ] Create user views
+  - [ ] view other profile
+  - [ ] view user profile
+  - [ ] homepage/timeline
+  - [ ] settings
   - [ ] edit profile
-  - [ ] create post?
+  - [ ] create profile
+  - [ ] photos
+  - [ ] 
+
 
 
 - [ ] Create routes
@@ -63,7 +73,7 @@
 - [ ] Create controllers
   - [ ] Users
   - [ ] Friends
-  - [ ] Posts
+  - [ ] Timeline
 
 
 - [ ] Create Authentication

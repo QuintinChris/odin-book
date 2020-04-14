@@ -32,7 +32,6 @@ var UserSchema = new Schema({
     age: {
         type: Number
     },
-    // friends: [{FriendSchema}] ?
     friends: [{
         type: Schema.Types.ObjectId
     }],
